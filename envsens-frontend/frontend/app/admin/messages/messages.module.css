@@ -1,0 +1,35 @@
+/* sendMessage.module.css */
+.sendMessageContainer {
+    height: 100vh; /* Hauteur de la vue */
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    background-color: #f0f0f0; /* Couleur de fond */
+}
+
+.sendMessageForm {
+  width: 80%;
+  height: 570px;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sendMessageForm .p-field {
+    margin-bottom: 1.5rem; /* Espacement entre les champs */
+    padding-top: 5%;
+}
+
+.sendMessageForm label {
+    font-weight: bold; /* Texte en gras */
+    color: #333333; /* Couleur du texte */
+}
+
+.sendMessageForm .p-button {
+    width: 100%; /* Largeur du bouton */
+    margin-top: 1rem; /* Espacement au-dessus du bouton */
+}

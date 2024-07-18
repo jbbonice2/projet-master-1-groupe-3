@@ -1,0 +1,140 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    color: #E6E6E6; /* Light blue color */
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.submitButton {
+    background-color: #E6E6E6;
+  color: #828282;
+  font-weight: bold;
+  font-size: 10pt;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #108DC2;
+    margin-bottom: 20px;
+}
+
+.date {
+    font-size: 13px;
+    color: #111313;
+    font-weight: bold;
+}
+
+.titre {
+    font-size: 20px;
+    color:#111313;
+    font-weight: bold;
+}
+
+.container_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    color: #806A6A;
+    font-weight: bold;
+}
+
+.divflexCol{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-content: center;
+   align-items: center;
+   width: 100% !important;
+   gap: 10px;
+ }
+
+.textarea {
+    height: 200px; /* Fixed height */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    color: #806A6A;
+    font-weight: bold;
+}
+
+.button {
+    width: 300px; /* Fixed width */
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15pt;
+    background-color: #F2F2F2;
+    color: #806A6A;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #6e6e6e;
+}
+
+.error {
+    color: red;
+    margin-top: 2px;
+}
+
+.titre {
+    font-size: 20px;
+    color:#111313;
+    font-weight: bold;
+}
+
+.container_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+
+
+}

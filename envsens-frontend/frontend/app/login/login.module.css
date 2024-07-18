@@ -1,0 +1,106 @@
+/* login.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #fff;
+    padding: 20px;
+    width: 120%;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form , .input1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+}
+
+.label {
+    font-size: 18px;
+    color: #0070f3;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input{
+
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content: center;
+    width: 255px;
+}
+
+.formGroup {
+    margin-bottom: 1.5rem;
+
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content: center;
+    width: 150%;
+}
+
+.rememberMe {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox {
+    margin-right: 10px;
+    accent-color: #00ADEF;
+}
+
+.rememberMeLabel {
+    font-size: 14px;
+    color: #000;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #828282;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #c7c5c5;
+}
+
+.forgotPassword {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 45px;
+}
+
+.link {
+    color: #00ADEF;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

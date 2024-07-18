@@ -1,0 +1,136 @@
+/* styles/globals.css */
+@import 'primereact/resources/themes/saga-blue/theme.css';
+@import 'primereact/resources/primereact.min.css';
+@import 'primeicons/primeicons.css';
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+.main-layout {
+  display: flex;
+}
+
+.auth-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+nav, aside {
+  background-color: #007ad9;
+  color: #fff;
+}
+
+main {
+  flex-grow: 1;
+}
+
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p-datatable-header{
+  background-color:#FFFAFA;
+
+}
+
+.p-datatable .p-datatable-tbody > tr:nth-child(odd) {
+  background-color: #FFFAFA;
+}
+
+.p-datatable .p-datatable-tbody > tr:nth-child(even) {
+  background-color: #F2F2F2;
+}
+
+.p-datatable .p-paginator .p-paginator-next, 
+.p-datatable .p-paginator .p-paginator-prev {
+  background: none;
+  border: none;
+  color: #007ad9;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.p-password-input.p-inputtext.p-component{
+
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #E6E6E6;
+}
+
+
+.p-overlaypanel.p-overlaypanel-flipped::after{
+  display: none !important;
+}
+
+p-overlaypanel.p-overlaypanel-flipped:before {
+  display: none !important;
+}
+
+p-overlaypanel.p-overlaypanel-flipped .p-overlaypanel-content {
+  padding: 0 !important;
+}
+
+
+.button{
+    
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #828282;
+  background-color: #E6E6E6;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position:static;
+}
+
+
+.input{
+    
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #828282;
+  background-color: #E6E6E6;
+  border: none;
+  border-radius: 12px;
+  position:static;
+}
+
+.button:hover {
+  background-color: #c7c5c5;
+}
+
+.btn_div{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.p-datatable.p-component{
+  margin-bottom: 5rem;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.navItemr{
+ margin-left: 20px;
+ text-decoration: none;
+ font-weight: bold;
+}

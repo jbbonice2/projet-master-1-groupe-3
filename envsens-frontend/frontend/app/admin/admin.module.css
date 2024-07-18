@@ -1,0 +1,67 @@
+/* admin.module.css */
+.adminContainer {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #fef9f7;
+    padding: 22px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    background-color: inherit;
+}
+
+.button{
+    
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #828282;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position:static;
+}
+
+.button:hover {
+    background-color: #c7c5c5;
+}
+
+.btn_div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.date {
+    font-size: 14px;
+    color: #828282;
+}

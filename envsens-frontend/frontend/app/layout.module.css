@@ -1,0 +1,136 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  box-shadow: 0 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.14), 0 0.1rem 0.3rem 0 rgba(0, 0, 0, 0.12), 0 0.1rem 0.3rem 0 rgba(0, 0, 0, 0.2);
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Assurez-vous que le header reste au-dessus du contenu */
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #0070f3;
+}
+
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  gap: 14px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  color: #0070f3;
+  margin-left: 1rem;
+}
+
+.main {
+  flex: 1;
+  background-color: #fef9f7;
+  position: relative;
+  margin-top: 4rem; 
+}
+
+.footer {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.userDropdown {
+  display: flex;
+}
+
+.dropdownMenu {
+  position: absolute;
+  margin: 1rem;
+  top: 100%;
+  align-items: center;
+  text-align: center;
+  right: 0;
+  width: 250px;
+  color: gray;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.dropdownHeader {
+  font-weight: bold;
+  padding: 10px;
+  padding-bottom:0%;
+  color: #4d3f3f;
+  cursor:default;
+}
+
+.username {
+  font-size: small;
+  font-weight: bold;
+  font-family: monospace;
+  color: gray;
+  padding: 10px;
+}
+
+.dropdownItem {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdownItem:hover {
+  background-color: #f0f0f0;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.footer {
+  text-align: center;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  margin-left: 30%;
+  width: 50%;
+}
+
+.date {
+  font-size: 13px;
+  color: #111313;
+  font-weight: bold;
+}
+.profiles{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end ;
+  align-content: center;
+}
+

@@ -1,0 +1,17 @@
+{
+    "welcome": "Welcome to EnvSens",
+    "enter_info": "Please enter your information",
+    "name": "Name",
+    "first_name": "First Name",
+    "username": "Username",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "register": "Register",
+    "home": "Home",
+    "users": "Users",
+    "list": "List",
+    "add": "Add",
+    "groups": "Groups",
+    "logout": "Logout"
+  }
+  
